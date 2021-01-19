@@ -1,0 +1,29 @@
+[
+    {
+        "model": "app.profil",
+        "pk": 1,
+        "fields": {
+          "name": "administrateur",
+          "description": "administrateur",
+          "administrateur": true
+      }
+    },
+    {
+      "model": "app.profil",
+      "pk": 2,
+      "fields": {
+        "name": "utilisateur",
+        "description": "utilisateur",
+        "administrateur": false
+      }
+    },
+    {
+        "model": "app.profil",
+        "pk": 3,
+        "fields": {
+          "name": "invite",
+          "description": "invite",
+          "administrateur": false
+        }
+      }
+  ]
